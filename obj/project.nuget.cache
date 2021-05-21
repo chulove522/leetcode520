@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yD+qCAp2H9fLVeIVouXP7JDRoro1EUKLk6OILq50/GG6qywukytQd1l89qtCOQtaRrPrPmsnAlIHjlcLR9M6UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chulove\\source\\repos\\happy0520\\happy0520.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chulove\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\chulove\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.0\\microsoft.netframework.referenceassemblies.net48.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
