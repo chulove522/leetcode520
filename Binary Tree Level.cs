@@ -20,9 +20,28 @@ namespace happy0520
                     this.right = right;
              }
         }
+
+
         public static IList<IList<int>> bstLevelOrder()
         {
+
+            #region#
             TreeNode root = new TreeNode();
+            root.val = 1;
+            TreeNode t2 = new TreeNode();
+            TreeNode t3 = new TreeNode();
+            TreeNode t4 = new TreeNode();
+            TreeNode t5 = new TreeNode();
+            t2.val = 2;
+            t3.val = 3;
+            t4.val = 4;
+            t5.val = 5;
+            root.left = t2;
+            root.right = t3;
+            t2.left = t4;
+            t2.right = t5;
+            #endregion
+
             TreeNode front = new TreeNode();
             IList<IList<int>> list = new List<IList<int>>();
             if (root == null)
@@ -33,26 +52,30 @@ namespace happy0520
 
             Queue<TreeNode> myq = new Queue<TreeNode>();
             myq.Enqueue(root);
-
-            int nodeCount = 1;
             while (myq.Count != 0)
             {
-                front = myq.Dequeue();
-                nodeCount++;
-                double level = Math.Log(nodeCount, 2) - 1;
-                if (level >= list.Count || list.Count ==0)
-                    list.Add(new List<int>());
-                list[(int)level].Add(front.val);
+                int nodeCount = myq.Count();
+                List<int> sublist = new List<int>();
 
-                if (front.left != null)
-                    myq.Enqueue(front.left);
-                if (front.left != null)
-                    myq.Enqueue(front.right);
+                while (nodeCount > 0) {
+
+                    front = myq.Dequeue();  //root
+                    sublist.Add(front.val);
+
+                    if (front.left != null)
+                        myq.Enqueue(front.left);
+                    if (front.right != null)
+                        myq.Enqueue(front.right);
+
+                    nodeCount--;
+                }
+                list.Add(sublist);
             }
-
+            
             return list;
                 
         }
+
         public static void levelOrder(IList<IList<int>> ans, TreeNode t, int level)
         {
             if (t == null)
