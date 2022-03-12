@@ -6,11 +6,9 @@ C:\Users\chulove\source\repos\happy0520\obj\Debug\net48\happy0520.AssemblyInfo.c
 C:\Users\chulove\source\repos\happy0520\obj\Debug\net48\happy0520.exe
 C:\Users\chulove\source\repos\happy0520\obj\Debug\net48\happy0520.pdb
 C:\Users\chulove\source\repos\happy0520\bin\Debug\net48\happy0520.pdb
-C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.exe
-C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.pdb
-C:\Users\chulove\source\repos\leetcode520\bin\Debug\net48\happy0520.exe.config
 C:\Users\chulove\source\repos\leetcode520\bin\Debug\net48\happy0520.exe
-C:\Users\chulove\source\repos\leetcode520\bin\Debug\net48\happy0520.pdb
-C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.csprojAssemblyReference.cache
+C:\Users\chulove\source\repos\leetcode520\bin\Debug\net48\happy0520.exe.config
 C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.AssemblyInfoInputs.cache
 C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.AssemblyInfo.cs
+C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.exe
+C:\Users\chulove\source\repos\leetcode520\obj\Debug\net48\happy0520.pdb
